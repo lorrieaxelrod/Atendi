@@ -36,10 +36,10 @@ export default class App extends React.Component {
           </Image>
           <View style={styles.buttons}>
           <TouchableOpacity>
-            <Text style={styles.login}>Log In</Text>
+            <Text style={styles.button}>Log In</Text>
           </TouchableOpacity>
           <TouchableOpacity>
-            <Text style={styles.login}>Sign Up</Text>
+            <Text style={styles.button}>Sign Up</Text>
           </TouchableOpacity>
           </View>
         </View>
@@ -60,30 +60,19 @@ const styles = StyleSheet.create({
       marginLeft: '17%',
       marginTop: '55%'
     },
-    login: {
+    button: {
       overflow: 'hidden',
       backgroundColor: '#FBB03B',
       width: 125,
       height: 40,
-      borderRadius: 7,
+      borderRadius: 8,
       textAlign: 'center',
+      lineHeight: 30,
       fontWeight: 'bold',
       fontFamily: "Dongle-Bold",
       color: "#D6860B",
       padding: "5%",
-      fontSize: 20,
-    },
-    signup: {
-      overflow: 'hidden',
-      backgroundColor: '#FBB03B',
-      width: 125,
-      height: 40,
-      borderRadius: 7,
-      textAlign: 'center',
-      fontWeight: 'bold',
-      color: "#D6860B",
-      padding: "5%",
-      fontSize: 20,
+      fontSize: 30,
     },
     buttons: {
       flexDirection:"row", flex: 1, 
