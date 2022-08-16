@@ -1,7 +1,7 @@
 ## Atendi
 
 Upcoming tasks:
-- Replicate home screen on React Native Launch Screen 
+- Replicate home screen from Figma
 
 Important Links:
 - [Using custom fonts](https://docs.expo.dev/guides/using-custom-fonts/)
