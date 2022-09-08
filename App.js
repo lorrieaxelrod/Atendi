@@ -4,7 +4,28 @@ import AppLoading from "expo-app-loading";
 import * as Font from 'expo-font';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { initializeApp } from 'firebase/app';
 
+// Optionally import the services that you want to use
+//import {...} from "firebase/auth";
+//import {...} from "firebase/database";
+//import {...} from "firebase/firestore";
+//import {...} from "firebase/functions";
+//import {...} from "firebase/storage";
+
+// Initialize Firebase
+const firebaseConfig = {
+  apiKey: "AIzaSyD8iZt2ZDESwTCSf7sMqD73T1tqrXaFJYA",
+  authDomain: "atendi-2f6f6.firebaseapp.com",
+  projectId: "atendi-2f6f6",
+  storageBucket: "atendi-2f6f6.appspot.com",
+  messagingSenderId: "926647306301",
+  appId: "1:926647306301:web:a62bd40baa0124dd3d4254",
+  measurementId: "G-HRSN54J5BV"
+};
+
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 
 const Stack = createNativeStackNavigator();
 
