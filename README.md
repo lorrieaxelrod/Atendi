@@ -1,7 +1,8 @@
 ## Atendi
+### [Figma](https://www.figma.com/file/IsVipEa6hRiRr6ZAVrLvGr/Atendi?node-id=57%3A357)
 
 Upcoming tasks:
-- Replicate home screen on React Native Launch Screen 
+- Replicate home screen from Figma
 
 Important Links:
 - [Using custom fonts](https://docs.expo.dev/guides/using-custom-fonts/)
